@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProgatexGlints</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo|Roboto" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <div class="container">
+          <div class="header-logo">
+            <img src="images\progate_logo.png" alt="">
+          </div>
+          <div class="bar-wrapper" onclick="myFunction(this)">
+            <div class="bar-container">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+            <ul class="header-list">
+              <li class="first" >About Us</li>
+              <li class="second">Curriculum</li>
+              <li class="third">Contact Us</li>
+              <li class="glints-logo"><img src="images\glints_logo.png"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="main-wrapper">
+      <div class="top-wrapper">
+        <div class="container">
+          <div class="blue-img animated fadeslideright animation-delay-2">
+            <img src="images\glints_blue1.png" alt="">
+          </div>
+          <div class="motto animated fadeenter animation-delay-1">
+            <h1>PROGATE <span>x</span> GLINTS</h1>
+            <p>The path to a brighter future</p>
+          </div>
+          <div class="yellow-img animated fadeslideleft animation-delay-2">
+            <img src="images\glints_yellow.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="curriculum-wrapper animated fadeenter animation-delay-3">
+        <div class="container">
+          <div class="heading">
+            <h1>CURRICULUMS</h1>
+          </div>
+          <div class="curriculums">
+            <div class="curriculum html">
+              <div class="curriculum-logo">
+                <img src="images\html.png" alt="">
+              </div>
+              <h2>HTML & CSS</h2>
+                <div class="text">
+                  <p>Language for web structure and design</p>
+                </div>
+            </div>
+            <div class="curriculum git">
+              <div class="curriculum-logo">
+                <img src="images\git.png" alt="">
+              </div>
+              <h2>GIT</h2>
+              <div class="text">
+                <p>Tool that is used for a better team collaboration</p>
+              </div>
+            </div>
+            <div class="curriculum command">
+              <div class="curriculum-logo">
+                <img src="images\commandline.png" alt="">
+              </div>
+              <h2>COMMAND LINE</h2>
+              <div class="text">
+                <p>Processes commands to a computer program</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-wrapper animated fadeenter animation-delay-4">
+      <div class="container">
+        <div class="heading">
+          <h1>CONTACT US</h1>
+        </div>
+        <div class="message-wrapper">
+          <p>Email (Required)</p>
+          <input>
+          <p>Message (Required)</p>
+          <textarea></textarea>
+          <p>* Required field must be filled</p>
+          <div>
+            <span class="btn message">Send</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-wrapper animated fadeslidein">
+        <div class="container">
+          <div class="footer-logo animated fadeslidein animation-delay-1">Progate x Glints</div>
+          <ul class="footer-list animated fadeslidein animation-delay-2">
+            <li>About</li>
+            <li>Jobs</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+  function myFunction(x) {
+    x.classList.toggle("change");
+  }
+  </script>
+<html/>
