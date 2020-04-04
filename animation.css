@@ -100,10 +100,10 @@
 }
 
 .change .header-list {
-  opacity: 1;
   z-index: 1;
-  transform: translate3d(0,0,0);
-  animation-fill-mode: backwards;
+  animation-fill-mode: none;
+  display: block;
+  opacity: 1;
 }
 
 .change .glints-logo img {
