@@ -24,7 +24,6 @@
     margin: 0 5px;
 }
 
-
 }
 
 /* For mobile */
@@ -53,8 +52,8 @@
 }
 
 .bar-wrapper {
-margin: 0 auto;
-padding: 0 10px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 .bar-container {
@@ -78,7 +77,6 @@ padding: 0 10px;
   top:10px;
   right: -10px;
   height: 1450px;
-  opacity: 0;
   width: 100vh;
   margin-top: 40px;
   background-color: rgb(0, 102, 204);
@@ -113,9 +111,7 @@ padding: 0 10px;
 }
 
 .header-list li:hover {
-  right: 20px;
   box-shadow: none;
-  transition: none;
   border-radius: none;
 }
 
