@@ -1,5 +1,5 @@
 /* For Tablets */
-@media all and (max-width:1100px) {
+@media all and (max-width:1000px) {
   .blue-img img{
     position: relative;
     width: 60px;
